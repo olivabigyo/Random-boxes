@@ -23,14 +23,22 @@ bigButton.addEventListener('click', e =>{
   const box = document.createElement('div');
   box.setAttribute('class','box')
   document.querySelector('main').appendChild(box);
-  box.setAttribute('style',`left: ${myX}px; top: ${myY}px`)
+
+  // Boxes in random position with background
+  box.setAttribute('style',`left: ${myX}px; top: ${myY}px; background-position: -${myX}px -${myY}px;`)
+
+
 
   // Boxes in greyscale
-  let lastBox = document.querySelector('main .box:last-of-type');
-  //   console.log(lastBox);
-  if (counter < 255) {
-    lastBox.style.background = `rgb(${counter},${counter},${counter})`;
-    } else lastBox.style.background = `rgb(255),255,255)`;
+  // let lastBox = document.querySelector('main .box:last-of-type');
+  //    console.log(lastBox);
+  // if (counter < 255) {
+  //   lastBox.style.background = `rgb(${counter},${counter},${counter})`;
+  //   } else lastBox.style.background = `rgb(255),255,255)`;
+
+
+
+
 
 })
 

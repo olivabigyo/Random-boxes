@@ -1,0 +1,56 @@
+/* === Small CSS Reset === */
+*{
+    margin: 0;
+    padding: 0;
+  }
+  *, *::after, *::before{
+    box-sizing: border-box;
+  }
+
+  body {
+      background: #EEE3DD;
+  }
+
+  main {
+      width: 1600px;
+      height: 900px;
+      margin: 0 auto;
+      background: #29304C;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+  }
+
+  main h1, main h2 {
+      margin: 2em;
+      color: #f0f0f0;
+      font-family: sans-serif;
+      z-index: 300;
+  }
+ 
+  #circle {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background: #f0f0f0;
+      z-index: 300;
+  }
+
+  #circle:hover {
+      cursor: pointer;
+  }
+
+  .box {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      /* background: #B17C5B; */
+      /* background-color: black; */
+      background-image: url(http://placekitten.com/1600/900);
+      /* background-image: url(http://placekitten.com/80/90); */
+      /* background-position-x: -350px; */
+      background-repeat: no-repeat;
+      border: 2px solid #B17C5B;
+      /* opacity: 0.9; */
+  }

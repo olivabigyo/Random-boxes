@@ -45,12 +45,7 @@
       width: 100px;
       height: 100px;
       position: absolute;
-      /* background: #B17C5B; */
-      /* background-color: black; */
-      background-image: url(http://placekitten.com/1600/900);
-      /* background-image: url(http://placekitten.com/80/90); */
-      /* background-position-x: -350px; */
-      background-repeat: no-repeat;
       border: 2px solid #B17C5B;
-      /* opacity: 0.9; */
+      /* background: #B17C5B; */
+      background-image: url(http://placekitten.com/1600/900);
   }
